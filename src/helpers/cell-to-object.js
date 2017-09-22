@@ -13,7 +13,7 @@ export default function cellToObject(cell, typeHandlers) {
   const text = cell.textContent.trim() || '';
 
   // custom handlers
-  typeHandlers.some(typeHandler => (cellObject = typeHandler(cell, text)));
+  // typeHandlers.some(typeHandler => (cellObject = typeHandler(cell, text)));
 
   // default handler
   if (!cellObject) cellObject = { t: 's', v: text };
