@@ -45,7 +45,7 @@ const typeHandlers = [
   listHandler,
   inputHandler,
   numberHandler,
-  dateHandler,
+  // dateHandler,
   booleanHandler,
 ];
 
